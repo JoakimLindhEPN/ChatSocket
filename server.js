@@ -43,3 +43,5 @@ io.on('connection', socket => {
   })
 
 })
+
+export const handler = serverless(app);
